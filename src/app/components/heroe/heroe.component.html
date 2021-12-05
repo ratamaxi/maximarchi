@@ -1,0 +1,34 @@
+<h1> {{ heroe.nombre }} </h1>
+<hr>
+
+<div class="row">
+    <div class="col-md-8">
+
+        <img [src]="heroe.img" class=" img-fluid">
+
+        <br><br>
+
+    </div>
+
+    <div class="col-md-4">
+        <H3>{{heroe.nombre}}</H3>
+        <hr>
+        <p>{{heroe.bio}}</p>
+
+        <div>
+            <img *ngIf="heroe.casa=='Marvel'" class="img-logo" src="assets/img/marvel.png">
+            <img *ngIf="heroe.casa=='DC'" class="img-logo" src="assets/img/dc.png">
+            <a [routerLink]="['/trabajos']" class="btn btn-outline-danger btn-block">REGRESAR</a>
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+</div>
+
+<app-footer></app-footer>

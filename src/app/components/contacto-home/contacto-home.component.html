@@ -1,0 +1,34 @@
+<section class="caviar-reservation-area d-md-flex align-items-center" id="reservation">
+    <div class="reservation-form-area d-flex justify-content-end">
+        <div class="reservation-form" data-aos="fade-right">
+            <div class="section-heading">
+                <h2>Enviá tu consulta</h2>
+            </div>
+            <form name="enviar-mensaje" id="enviar-mensaje" method="post" action="mandamail.php">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre" required>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <input type="text" name="empresa" id="empresa" class="form-control" placeholder="Empresa">
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <input type="number" name="numero" id="numero" class="form-control" placeholder="Teléfono">
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Email" required>
+                    </div>
+                    <div class="col-12 shadow">
+                        <textarea name="reservation-message" class="form-control" id="reservationMessage" cols="30" rows="10" placeholder="Tu Mensaje"></textarea>
+                    </div>
+                    <div class="col-12 btn btn-warning" style="margin-top:20px ;">
+                        <button type="submit" id="enviar" class="btn caviar-btn"><span></span> Enviar Consulta</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="reservation-side-thumb" data-aos="fade-left" data-aos-duration="1000">
+        <img src="../../assets/img/contacto.jpg" alt="">
+    </div>
+</section>
