@@ -1,21 +1,13 @@
 <div class="container">
-    <h1> {{ trabajo.nombre }} </h1>
-    <hr>
-
     <div class="row">
         <div class="col-md-8">
-
             <img [src]="trabajo.img" class=" img-fluid">
-
             <br><br>
-
         </div>
-
         <div class="col-md-4">
             <H3>{{trabajo.nombre}}</H3>
             <hr>
             <p>{{trabajo.bio}}</p>
-
             <div>
                 <img *ngIf="trabajo.casa=='Marvel'" class="img-logo" src="assets/img/marvel.png">
                 <img *ngIf="trabajo.casa=='DC'" class="img-logo" src="assets/img/dc.png">
