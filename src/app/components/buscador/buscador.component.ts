@@ -10,18 +10,18 @@ import { TrabajosService } from '../../servicio/trabajos.service';
 })
 export class BuscadorComponent implements OnInit {
 
-  heroes:any[] = [];
+  trabajos:any[] = [];
   termino:string;
 
   constructor( private activatedRouter:ActivatedRoute,
-              private _heroeServicio:TrabajosService) { }
+              private _trabajoServicio:TrabajosService) { }
 
   ngOnInit(): void {
 
     this.activatedRouter.params.subscribe (params => {
     this.termino = (params['termino'])
-      this.heroes = this._heroeServicio.buscarHeroes(params ['termino']);
-      console.log(this.heroes)
+      this.trabajos = this._trabajoServicio.buscarTrabajos(params ['termino']);
+      console.log(this.trabajos)
     })
   }
 

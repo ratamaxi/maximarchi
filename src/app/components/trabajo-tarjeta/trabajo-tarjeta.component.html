@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="card animated fadeIn fast" data-aos="zoom-in">
+        <img [src]="trabajo.img" class="card-img-top" [alt]="trabajo.nombre">
+        <div class="card-body">
+            <h5 class="card-title section-heading">{{ trabajo.nombre}}</h5>
+            <p class="card-text">{{ trabajo.bio}}</p>
+            <p class="card-text"><small class="text-muted">{{trabajo.aparicion}}</small></p>
+
+            <button (click)="verTrabajo()" type="button" class="btn btn-outline-primary btn-block alert-warning">
+           Ver Mas...
+        </button>
+            <!--       <a [routerLink]="['/trabajo']" class="btn btn-outline-primary"> Ver más link...</a>-->
+
+        </div>
+    </div>
+</div>

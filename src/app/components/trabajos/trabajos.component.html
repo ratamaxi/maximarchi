@@ -1,0 +1,24 @@
+<div class="tituloTrabajos">
+    <h1> Seleccione el socio para ver sus trabajos</h1>
+    <hr>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3 col-sm-6 col-12" *ngFor="let socio of socios">
+            <div class="card p-2" style="width: 18rem;" (click)="obtenerTrabajosSocio(socio.nombre)">
+                <button>
+                    <img class="card-img-top" [src]="socio.img" alt="Card image cap"></button>
+                <div class="card-body">
+                    <p class="card-text"><b>{{socio.nombre}}</b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="card-columns tarjetas">
+    <app-trabajo-tarjeta [trabajo]="algo" [i]="algo.idx" *ngFor="let algo of trabajoSocio; let i = index"></app-trabajo-tarjeta>
+
+    <!-- <app-trabajo-tarjeta [trabajo]="algo" [i]="i" *ngFor="let algo of trabajos; let i = index"></app-trabajo-tarjeta> -->
+</div>
+
+<app-footer></app-footer>

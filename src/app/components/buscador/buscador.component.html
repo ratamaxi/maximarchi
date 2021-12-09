@@ -1,17 +1,20 @@
-<h1>Buscando: <small>{{ termino }}</small></h1>
-<hr>
-
-<div class="row animated fadeIn fast" *ngIf="heroes.length==0">
-    <div class="col-md-12">
-        <div class="alert alert-info" role="alert">
-            No se encontraron resultados con el término: {{ termino }}
+<div class="container">
+    <div class="tituloTrabajos">
+        <h1>Buscando: <small>{{ termino }}</small></h1>
+        <hr>
+    </div>
+    <div class="row animated fadeIn fast" *ngIf="trabajos.length==0">
+        <div class="col-md-12">
+            <div class="alert alert-info" role="alert">
+                No se encontraron resultados con el término: {{ termino }}
+            </div>
         </div>
     </div>
-</div>
 
 
-<div class="card-columns">
-    <app-heroe-tarjeta [heroe]="algo" [i]="algo.idx" *ngFor="let algo of heroes"></app-heroe-tarjeta>
+    <div class="card-columns">
+        <app-trabajo-tarjeta [trabajo]="algo" [i]="algo.idx" *ngFor="let algo of trabajos"></app-trabajo-tarjeta>
+    </div>
 </div>
 
 <app-footer></app-footer>

@@ -1,4 +1,4 @@
-.animated {
+Skip to content .animated {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
@@ -79,8 +79,11 @@ body {
 }
 
 .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.bulets {
+    padding-bottom: 50px !important;
 }
 
 
@@ -145,18 +148,6 @@ body {
 
 
 /* Declare heights because of positioning of img element */
-
-.carousel-item {
-    height: 32rem;
-}
-
-.carousel-item>img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    height: 32rem;
-}
 
 footer {
     background-color: #2b2f37;
@@ -237,11 +228,11 @@ footer {
 
 .reservation-form-area,
 .contact-form-area {
-    width: calc(50% - 100px);
+    width: calc(75% - 100px);
 }
 
 .reservation-side-thumb {
-    width: calc(50% + 100px);
+    width: calc(100% + 100px);
 }
 
 .reservation-form,
@@ -296,5 +287,15 @@ footer {
     color: #ffb700;
 }
 
+.btn-outline-primary:hover {
+    color: #000;
+    background-color: #ffb700;
+    border-color: #ffb700;
+}
 
-/* S L I D E R   T R A B A J O S */
+.ajuste {
+    padding-left: 50px;
+}
+
+
+/* C A R R O U S E L    H O M E */

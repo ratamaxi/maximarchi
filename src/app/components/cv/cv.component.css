@@ -1,0 +1,532 @@
+.container {
+    padding-top: 0 !important;
+}
+
+.fotoCv {
+    max-height: 300px;
+}
+
+.contenedorIzquierdo {
+    background: #f59b28;
+    height: 1270px;
+    color: white;
+}
+
+.contenedorDerecho {
+    height: 1500px;
+}
+
+.textoContacto {
+    padding-top: 2%;
+}
+
+.linkangema {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+#dGrafico {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+}
+
+#dGrafico>div {
+    background-color: orange;
+    width: 100%;
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+    animation: carga 1s none linear 3s;
+}
+
+@keyframes carga {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+#programacion {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+}
+
+#programacion>div {
+    background-color: orange;
+    width: 80%;
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+    animation: programacion 1s none linear 3s;
+}
+
+@keyframes programacion {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 80%;
+    }
+}
+
+#Eimagen {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+}
+
+#Eimagen>div {
+    background-color: orange;
+    width: 90%;
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+    animation: Eimagen 1s none linear 3s;
+}
+
+@keyframes Eimagen {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 90%;
+    }
+}
+
+#maquetado {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+}
+
+#maquetado>div {
+    background-color: orange;
+    width: 70%;
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+    animation: maquetado 1s none linear 3s;
+}
+
+@keyframes maquetado {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 70%;
+    }
+}
+
+#ux {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+}
+
+#ux>div {
+    background-color: orange;
+    width: 50%;
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+    animation: ux 1s none linear 3s;
+}
+
+@keyframes ux {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 50%;
+    }
+}
+
+
+/* //////////////////////////////////////////////////////////// */
+
+#photoshop {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+}
+
+#photoshop>div {
+    background-color: orange;
+    width: 100%;
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+    animation: photoshop 1s none linear 3.5s;
+}
+
+@keyframes photoshop {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+#illustrator {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+}
+
+#illustrator>div {
+    background-color: orange;
+    width: 100%;
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+    animation: illustrator 1s none linear 3.5s;
+}
+
+@keyframes illustrator {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+#indesign {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+}
+
+#indesign>div {
+    background-color: orange;
+    width: 60%;
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+    animation: indesign 1s none linear 3.5s;
+}
+
+@keyframes indesign {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 60%;
+    }
+}
+
+#afterEffects {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+}
+
+#afterEffects>div {
+    background-color: orange;
+    width: 40%;
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+    animation: afterEffects 1s none linear 3.5s;
+}
+
+@keyframes afterEffects {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 40%;
+    }
+}
+
+#premier {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+}
+
+#premier>div {
+    background-color: orange;
+    width: 80%;
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+    animation: premier 1s none linear 3.5s;
+}
+
+@keyframes premier {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 80%;
+    }
+}
+
+#leer {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+}
+
+#leer>div {
+    background-color: orange;
+    width: 80%;
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+    animation: leer 1s none linear 4.5s;
+}
+
+@keyframes leer {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 80%;
+    }
+}
+
+#hablar {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+}
+
+#hablar>div {
+    background-color: orange;
+    width: 40%;
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+    animation: hablar 1s none linear 4.5s;
+}
+
+@keyframes hablar {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 40%;
+    }
+}
+
+
+/* //////////////////////////////////////////////////////////// */
+
+#angular {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+}
+
+#angular>div {
+    background-color: orange;
+    width: 80%;
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+    animation: angular 1s none linear 4s;
+}
+
+@keyframes angular {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 80%;
+    }
+}
+
+#javaS {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+}
+
+#javaS>div {
+    background-color: orange;
+    width: 60%;
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+    animation: javaS 1s none linear 4s;
+}
+
+@keyframes javaS {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 60%;
+    }
+}
+
+#ionic {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+}
+
+#ionic>div {
+    background-color: orange;
+    width: 80%;
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+    animation: ionic 1s none linear 4s;
+}
+
+@keyframes ionic {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 80%;
+    }
+}
+
+#java {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+}
+
+#java>div {
+    background-color: orange;
+    width: 50%;
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+    animation: java 1s none linear 4s;
+}
+
+@keyframes java {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 50%;
+    }
+}
+
+#html {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+}
+
+#html>div {
+    background-color: orange;
+    width: 90%;
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+    animation: html 1s none linear 4s;
+}
+
+@keyframes html {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 90%;
+    }
+}
+
+.nombre {
+    font-size: 3rem;
+    color: #f59b28;
+    font-weight: 900;
+}
+
+.apellido {
+    font-size: 3rem;
+}
+
+.carrera {
+    font-size: 1.5rem;
+    color: #f59b28;
+    font-weight: 900;
+}
+
+.empresa {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.titulo {
+    position: relative;
+    right: 5%;
+    z-index: -1;
+}
+
+.subtitulo {
+    font-size: 1.4rem;
+    color: #4c4b4b;
+    font-weight: 900;
+}
+
+.subtituloIzq {
+    font-size: 1.4rem;
+    color: #f59b28;
+    font-weight: 900;
+}
+
+.estudiosTexto {
+    font-size: 1rem;
+    font-weight: 900;
+    color: #4c4b4b;
+    text-align: center;
+    display: block;
+}
+
+.iconoEstudio {
+    max-width: 50%;
+}
+
+.centradoEstudio {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.estudiosSubtitulo {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #4c4b4b;
+    text-align: center;
+    display: block;
+}
+
+.bandera {
+    max-width: 25%;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
